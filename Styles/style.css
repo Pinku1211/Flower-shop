@@ -13,9 +13,16 @@ body {
     padding: 18px 35px;
     margin-top: 25px;
 }
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    
+    
+}
 
 /* header related style */
-.header {
+header {
     background: rgba(229, 84, 115, 0.10);
 
 }
@@ -27,8 +34,7 @@ body {
     padding-top: 200px;
 
 }
-.banner-des {
-    width: 634px;
+.primary-des {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -46,3 +52,64 @@ body {
 .banner-content {
     padding-left: 240px;
 }
+
+/* deal section style */
+.deal-section {
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 400px;
+}
+.deal-content {
+    text-align: center;
+    max-width: 600px;
+}
+
+
+/* insta section style */
+.insta-section {
+    margin-top: 100px;
+    
+}
+.insta-content {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    
+}
+.image-insta {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* subscribe section style */
+.subscribe-section {
+    margin-top: 100px;
+    background-image: url("../flower-asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.subscribe-content {
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+input {
+    width: 700px;
+    height: 54px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 10px;
+    border: none;
+    padding: 10px 0px 0px 20px;
+    
+}
+
+/* footer section */
+footer {
+    background: #111010;
+}
+
