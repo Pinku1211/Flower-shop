@@ -86,10 +86,7 @@ header {
     background-position: center;
     justify-content: center;
     display: flex;
-    padding: 50px 50px 0px 50px;
-
-
-    
+    padding: 50px 50px 0px 50px; 
 }
 .featured-flower3 {
     width: 360px;
@@ -122,10 +119,10 @@ h4 {
 }
 /* activity section */
 .activity-section {
-    width: 94%;
+    width: 95%;
     height: 250px;
     background: rgba(39, 39, 39, 0.05);
-    margin: auto;
+    margin-left: 40px;
     padding-top: 80px;
     margin-top: 100px;
 }
@@ -170,6 +167,7 @@ h4 {
     justify-content: center;
     margin-top: 50px;
 }
+
 /* subscribe section style */
 .subscribe-section {
     margin-top: 100px;
@@ -180,7 +178,7 @@ h4 {
 .subscribe-content {
     text-align: center;
     margin: auto;
-    padding: 50px;
+    padding: 70px;
 
 }
 .sub-input {
@@ -197,8 +195,51 @@ input {
     background: #FFF;
     margin: 0px 10px;
     border: none;
-    padding: 10px 0px 0px 20px;
+    padding: 5px 0px 0px 20px;
     
+}
+/* feedback section */
+.feedback-section {
+    width: 95%;
+    background: rgba(71, 125, 17, 0.15);
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-left: 40px;
+    
+}
+.feedback-content {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.feedback-msg {
+    width: 600px;
+    margin: auto;
+    
+
+}
+textarea {
+    color: #8d8c8c;
+    border: 0px;
+    width: 600px;
+    padding: 5px 0px 0px auto;
+    font: lato;
+    margin-bottom: 15px;
+}
+.submit-input {
+    background-color: #E55473;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    width: fit-content;
+    cursor: pointer;
+    
+}
+.sub-div {
+    width: fit-content;
+    margin: auto;
 }
 
 /* footer section */
